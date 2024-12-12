@@ -1,0 +1,10 @@
+# likelihood taken from desi_y1_cosmo_bindings
+# Schoneberg 2024 value for omegabh2 likelihood
+# https://arxiv.org/abs/2401.15054
+quantities: ['omegabh2']
+mean: [0.02218]
+cov: [[3.025e-7]]
+# Aliases for automatic covariance matrix
+aliases: []
+# Speed in evaluations/second
+speed: 4500

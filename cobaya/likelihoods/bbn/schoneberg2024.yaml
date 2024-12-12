@@ -1,12 +1,11 @@
 # Likelihoods from desi_y1_cosmo_bindings
 # Schoneberg 2024 value for the joint (omegabh2, nnu) likelihood
-# https://arxiv.org/abs/2401.15054
-
+# https://arxiv.org/abs/2401.15054 
 quantities: ['omegabh2', 'nnu']
 mean: [0.02196, 3.034]
 cov: [[4.03112260e-07, 7.30390042e-05],
       [7.30390042e-05, 4.52831584e-02]]
 # Aliases for automatic covariance matrix
-aliases = []
+aliases: []
 # Speed in evaluations/second
-speed: 4500 
+speed: 4500

@@ -13,5 +13,5 @@ class BBN(Likelihood):
         return {name: None for name in self.quantities}
 
     def logp(self, **params_values):
-        diff = self.mean -np.array([self.provider.get_param(name) for name in self.quantities])
+        diff = self.mean - np.array([self.provider.get_param(name) for name in self.quantities])
         return -0.5 * diff.dot(self.invcov).dot(diff)
