@@ -1,5 +1,5 @@
 # Cosmic Chronometer data for 35 datasets
-data_file: /home/nisha/cobaya/cobaya/likelihoods/chronometer/chronometer_data.txt
+data_file: /path/to/chronometer/chronometer_data.txt
 # Aliases for automatic covariance matrix
 aliases: [chronometer]
 # Speed in evauations/second
