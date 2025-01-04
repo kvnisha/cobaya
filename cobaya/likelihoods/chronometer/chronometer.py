@@ -34,7 +34,7 @@ class chronometer(H0):
         for _, row in self.data.iterrows():
             H0_mean = row['[H0 at z]']
             H0_std = row['[error]']
-            chi2 += -0.5*((H0_mean - H0_theory)**2 / H0_std)**2
+            chi2 += -0.5*((H0_mean - H0_theory)/H0_std)**2
         return chi2
 
 class chronometer_all(chronometer):
